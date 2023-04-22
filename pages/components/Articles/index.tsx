@@ -105,12 +105,12 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div className="bg-lightgrey py-20" id="blog-section">
+            <div className="py-20 bg-lightgrey" id="blog-section">
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center">
-                        <h3 className="text-blue text-lg font-normal tracking-widest">ARTICLES</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold">Our latest post.</h3>
+                        <h3 className="text-lg font-normal tracking-widest text-blue">News e approfondimenti</h3>
+                        <h3 className="text-4xl font-bold sm:text-6xl">Gli ultimi post.</h3>
                     </div>
 
 
@@ -118,18 +118,18 @@ export default class MultipleItems extends Component {
                         {postData.map((items, i) => (
                             <div key={i} >
 
-                                <div className='bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-3xl relative'>
+                                <div className='relative px-3 pt-3 pb-12 m-3 my-10 bg-white shadow-lg rounded-3xl'>
                                     <Image src={items.imgSrc} alt="gaby" width={389} height={262} className="inline-block m-auto" />
 
                                     <Link href="/">
-                                        <h3 className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img">{items.time} read</h3>
+                                        <h3 className="absolute px-6 py-3 text-white rounded-full bg-blue hover:bg-black hover:shadow-xl article-img">{items.time} read</h3>
                                     </Link>
-                                    <h4 className='text-2xl font-bold pt-6 text-black'>{items.heading}</h4>
-                                    <h4 className='text-2xl font-bold pt-1 text-black'>{items.heading2}</h4>
+                                    <h4 className='pt-6 text-2xl font-bold text-black'>{items.heading}</h4>
+                                    <h4 className='pt-1 text-2xl font-bold text-black'>{items.heading2}</h4>
 
                                     <div>
-                                        <h3 className='text-base font-normal pt-6 pb-2 opacity-75'>{items.name}</h3>
-                                        <h3 className='text-base font-normal pb-1 opacity-75'>{items.date}</h3>
+                                        <h3 className='pt-6 pb-2 text-base font-normal opacity-75'>{items.name}</h3>
+                                        <h3 className='pb-1 text-base font-normal opacity-75'>{items.date}</h3>
                                     </div>
 
                                 </div>
