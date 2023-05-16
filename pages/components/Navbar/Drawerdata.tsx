@@ -22,10 +22,10 @@ function classNames(...classes: string[]) {
 
 const Data = () => {
     return (
-        <div className="rounded-md max-w-sm w-full mx-auto">
-            <div className="flex-1 space-y-4 py-1">
+        <div className="w-full max-w-sm mx-auto rounded-md">
+            <div className="flex-1 py-1 space-y-4">
                 <div className="sm:block">
-                    <div className="space-y-1 px-5 pt-2 pb-3">
+                    <div className="px-5 pt-2 pb-3 space-y-1">
                         {navigation.map((item) => (
                             <Link
                                 key={item.name}
@@ -40,8 +40,8 @@ const Data = () => {
                             </Link>
                         ))}
                         <div className="mt-4"></div>
-                        <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
-                            Contact Us
+                        <button className="w-full px-4 py-2 font-medium text-white border rounded bg-navyblue hover:text-white border-purple">
+                            Contatti
                         </button>
                         {/* <Contactusform /> */}
                     </div>

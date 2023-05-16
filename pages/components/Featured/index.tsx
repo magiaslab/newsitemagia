@@ -83,23 +83,23 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div className="bg-bgblue py-20 marginFeature bg-featured">
+            <div className="py-20 bg-bgblue marginFeature bg-featured">
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
-                    <div className="text-center pt-48 pb-10 md:pt-96">
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white my-2">Featured works.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-50 lg:mr-48 my-2">Featured works.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-25 lg:-mr-48 my-2">Featured works.</h3>
+                    <div className="pt-48 pb-10 text-center md:pt-96">
+                        <h3 className="my-2 text-4xl font-bold text-white sm:text-6xl">Alcuni Lavori.</h3>
+                        <h3 className="my-2 text-4xl font-bold text-white text-opacity-50 sm:text-6xl lg:mr-48">Alcuni lavori.</h3>
+                        <h3 className="my-2 text-4xl font-bold text-white text-opacity-25 sm:text-6xl lg:-mr-48">Alcuni lavori.</h3>
                     </div>
 
                     <Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i}>
 
-                                <div className='bg-transparent m-3 pb-12 my-10 rounded-3xl'>
+                                <div className='pb-12 m-3 my-10 bg-transparent rounded-3xl'>
                                     <Image src={items.imgSrc} alt="gaby" width={636} height={620} className="rounded-2xl" />
                                     <div className="w-345">
-                                        <h4 className='sm:text-5xl font-bold sm:pt-6 text-center sm:text-start mt-10 text-white'>{items.heading}</h4>
+                                        <h4 className='mt-10 font-bold text-center text-white sm:text-5xl sm:pt-6 sm:text-start'>{items.heading}</h4>
                                     </div>
                                 </div>
 

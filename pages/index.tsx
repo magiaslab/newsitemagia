@@ -37,7 +37,7 @@ const Home = () => {
         <Beliefs />
         <Wework />
         <Ourteam />
-        {/* <Featured /> */}
+        <Featured />
         <Manage />
         <FAQ />
         <Testimonials />

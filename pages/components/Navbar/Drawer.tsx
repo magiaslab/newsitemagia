@@ -27,16 +27,16 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                 }
             >
 
-                <article className="relative w-340px max-w-lg pb-10 flex flex-col space-y-6 h-full">
-                    <header className="px-4 py-4 flex items-center">
+                <article className="relative flex flex-col h-full max-w-lg pb-10 space-y-6 w-340px">
+                    <header className="flex items-center px-4 py-4">
 
-                        <div className="flex flex-shrink-0 items-center border-right">
+                        <div className="flex items-center flex-shrink-0 border-right">
                             <Link href="/" className='text-2xl font-semibold text-black'>
-                                Desgy Solutions
+                                Magiaslab.com
                             </Link>
                         </div>
 
-                        <XMarkIcon className="block h-6 w-6" onClick={() => {
+                        <XMarkIcon className="block w-6 h-6" onClick={() => {
                             setIsOpen(false);
                         }} />
                     </header>
