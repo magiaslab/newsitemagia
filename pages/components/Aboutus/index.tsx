@@ -21,13 +21,13 @@ const Aboutdata: datatype[] = [
         heading: "Grafica.",
         imgSrc: "/images/aboutus/imgTwo.svg",
         paragraph: 'Realizziamo la tua immagine, il tuo logo, i tuoi materiali, studiando chi sei e come presentarti al meglio',
-        link: 'Learn more'
+        link: 'Leggi tutto'
     },
     {
         heading: "Formazione.",
         imgSrc: "/images/aboutus/imgThree.svg",
         paragraph: 'Facciamo formazione sugli strumenti che realizziamo affinchè possano diventare utili srtumenti per il tuo lavoro',
-        link: 'Learn more'
+        link: 'Vedi tutto'
     },
 ]
 
