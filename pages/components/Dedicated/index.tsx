@@ -17,9 +17,9 @@ const Dedicated = () => {
                     {/* COLUMN-2 */}
                     <div className="relative">
                         <Image src="images/dedicated/comma.svg" alt="comma-image" width={200} height={106} className="absolute hidden comma-pos lg:block" />
-                        <h2 className="pt-4 mt-5 text-4xl font-bold text-center lg:text-65xl sm:leading-tight lg:text-start">Dedicated to help peoples design needs.</h2>
+                        <h2 className="pt-4 mt-5 text-4xl font-bold text-center lg:text-65xl sm:leading-tight lg:text-start">Mi dedico con passione a ciò che mi piace</h2>
                         <p className="mt-5 text-2xl font-medium text-center text-lightblack lg:text-start">Quis ipsum suspendisse ultrices gravida risus commodo viverra maecenas accumsan lacus vel facilisis</p>
-                        <p className="mt-12 text-2xl font-semibold text-center lg:ml-32 preline lg:text-start"> Cathy Hills, CEO</p>
+                        <p className="mt-12 text-2xl font-semibold text-center lg:ml-32 preline lg:text-start"> Alessandro Cipriani, Founder</p>
                     </div>
 
                 </div>
